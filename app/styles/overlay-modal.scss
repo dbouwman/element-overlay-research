@@ -1,0 +1,21 @@
+#overlay-modal {
+  background: #CCC;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  &[aria-expanded="false"] {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    visibility: hidden;
+  }
+  &[aria-expanded="true"] {
+    opacity:0.9;
+    transition: opacity .25s ease-in-out;
+  }
+}
+
+[data-modal-visible="true"] {
+  overflow-y: hidden;
+}

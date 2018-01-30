@@ -1,0 +1,26 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import "overlay-modal";
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+
+    
+
+    #section2 {
+      background-color: #eee;
+      border: 1px solid #ccc;
+    }
+.collapsible {
+  overflow:hidden;
+    transition:height 0.3s ease-out;
+    height:auto;
+}
